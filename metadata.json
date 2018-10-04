@@ -1,0 +1,50 @@
+{
+    "author": "OpenStack Contributors",
+    "dependencies": [
+        {
+            "name": "puppetlabs/stdlib",
+            "version_requirement": ">= 4.0.0 <5.0.0"
+        }
+    ],
+    "description": "Installs and configures OpenStack crane.",
+    "issues_url": "https://bugs.launchpad.net/puppet-crane",
+    "license": "Apache-2.0",
+    "name": "openstack-crane",
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "Debian",
+            "operatingsystemrelease": [
+                "9"
+            ]
+        },
+        {
+            "operatingsystem": "Fedora",
+            "operatingsystemrelease": [
+                "24"
+            ]
+        },
+        {
+            "operatingsystem": "RedHat",
+            "operatingsystemrelease": [
+                "7"
+            ]
+        },
+        {
+            "operatingsystem": "Ubuntu",
+            "operatingsystemrelease": [
+                "16.04",
+                "18.04"
+            ]
+        }
+    ],
+    "project_page": "https://launchpad.net/puppet-crane",
+    "requirements": [
+        {
+            "name": "puppet",
+            "version_requirement": "4.x"
+        }
+    ],
+    "source": "git://github.com/openstack/puppet-crane.git",
+    "summary": "Puppet module for Crane",
+    "version": "14.0.0"
+}

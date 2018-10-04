@@ -1,0 +1,11 @@
+[general]
+debug: <%= scope['crane::config::debug'] %>
+data_dir: <%= scope['crane::config::data_dir'] %>
+endpoint: <%= scope['crane::config::endpoint'] %>
+data_dir_polling_interval: <%= scope['crane::config::data_dir_polling_interval'] %>
+
+[serve_content]
+enable: <%= scope['crane::config::serve_content_enable'] %>
+content_dir_v1: <%= scope['crane::config::serve_content_dir_v1'] %>
+content_dir_v2: <%= scope['crane::config::serve_content_dir_v2'] %>
+use_x_sendfile: <%= scope['crane::config::serve_content_use_x_sendfile'] %>
