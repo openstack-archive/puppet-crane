@@ -83,3 +83,8 @@ Repository
 ----------
 
 * https://git.openstack.org/cgit/openstack/puppet-crane
+
+Bugs
+-------------
+
+* https://bugs.launchpad.net/puppet-crane
