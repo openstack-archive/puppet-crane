@@ -82,4 +82,4 @@ Release Notes
 Repository
 ----------
 
-* https://git.openstack.org/cgit/openstack/puppet-crane
+* https://opendev.org/openstack/puppet-crane/
